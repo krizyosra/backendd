@@ -12,7 +12,7 @@ const Routeuser= require("./routes/RoutesUSer")
 const cors = require("cors");
 
 const corsOptions = {
-    origin: '*', 
+    origin: 'https://frontend-sand-omega.vercel.app/', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     allowedHeaders: ['Content-Type', 'Authorization'], 
     credentials: true, 
