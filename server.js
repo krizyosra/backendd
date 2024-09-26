@@ -3,7 +3,7 @@ var cookieParser = require('cookie-parser')
 const app= express()
 
 require("dotenv").config()
-const port=process.env.port
+const PORT=process.env.PORT
 
 
 const connect= require("./config/connectDB")
@@ -42,7 +42,7 @@ app.use(function(req,res){
 })
 */
 
-app.listen(port,(err)=>{
+app.listen(PORT,(err)=>{
 
 
     console.log(err)
